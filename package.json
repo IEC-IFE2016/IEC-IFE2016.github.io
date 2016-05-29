@@ -1,0 +1,35 @@
+{
+  "name": "iec-ife2016.github.io",
+  "version": "1.0.0",
+  "description": "IEC-IFE2016 Homepage",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IEC-IFE2016/iec-ife2016.github.io.git"
+  },
+  "keywords": [
+    "IEC",
+    "IFE"
+  ],
+  "author": "Vizards",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IEC-IFE2016/iec-ife2016.github.io/issues"
+  },
+  "homepage": "https://github.com/IEC-IFE2016/iec-ife2016.github.io#readme",
+  "eslintConfig": {
+    "extends": "eslint:recommended",
+    "globals": {
+      "$": true
+    },
+    "env": {
+      "browser": true
+    }
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}

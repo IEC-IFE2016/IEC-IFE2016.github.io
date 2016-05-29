@@ -1,0 +1,25 @@
+{
+  "name": "iec-ife2016.github.io",
+  "description": "IEC-IFE2016 Homepage",
+  "main": "index.js",
+  "authors": [
+    "Vizards"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "IEC",
+    "IFE"
+  ],
+  "homepage": "https://github.com/IEC-IFE2016/iec-ife2016.github.io",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.4",
+    "typed.js": "typed-js#^1.1.1"
+  }
+}
