@@ -20,16 +20,12 @@
     "url": "https://github.com/IEC-IFE2016/iec-ife2016.github.io/issues"
   },
   "homepage": "https://github.com/IEC-IFE2016/iec-ife2016.github.io#readme",
-  "eslintConfig": {
-    "extends": "eslint:recommended",
-    "globals": {
-      "$": true
-    },
-    "env": {
-      "browser": true
-    }
-  },
   "devDependencies": {
-    "gulp": "^3.9.1"
-  }
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-uglify": "^1.5.4",
+    "gulp-imagemin": "^3.0.1"
+  },
+  "dependencies": {}
 }

@@ -1,3 +1,12 @@
+.page-header {
+    position: relative;
+}
+.page-header .inner-header {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 .logo img {
     width: 50px;
     height: 50px;
@@ -7,7 +16,8 @@
     display: flex;
     display: -webkit-flex; /* Safari */
     justify-content: center;
-    margin: 20px;
+    margin-top: 100px;
+    margin-bottom: 50px;
 }
 @media (max-width: 1024px) {
     .member-intro {
@@ -81,8 +91,9 @@
 
 }
 .task {
-    margin: 20px 0;
-    padding: 10px 0;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #159957;
 }
 .buttons {
     display: flex;
